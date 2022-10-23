@@ -1,0 +1,68 @@
+.content-wrapper {
+  padding: 64px 50px;
+}
+
+.character-col {
+  z-index: 10;
+}
+
+.custom-button {
+  background-color: rgba(37,46,57,.6);
+  padding: 9px 36px;
+  border-radius: 30px;
+  color: #f2f4f6;
+  transition: background-color .25s ease;
+  margin-right: 1rem;
+}
+
+.custom-button:hover {
+  background-color: grey;
+  color: #f2f4f6;
+}
+
+.custom-button:focus {
+  box-shadow: none;
+}
+
+.custom-button.active-button {
+  background-color: #f2f4f6;
+  color: #0f171e;
+}
+
+.content-text {
+  display: none;
+  padding: 1rem 8rem 3rem 0rem;
+}
+
+.content-text.active {
+  display: block;
+}
+
+.header {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.textbody {
+  color: white;
+  padding-top: 1.5rem;
+}
+
+.background-image {
+  width: 100vw;
+  object-fit: cover;
+}
+
+.charmain-image {
+  position: relative;
+  object-fit: cover;
+  animation-name: fadeToLeft;
+  animation-duration: .4s;
+}
+
+@keyframes fadeToLeft {
+  0%   {right: -30px; opacity: 0;}
+  100%   {right: 0px; opacity: 1;}
+}
