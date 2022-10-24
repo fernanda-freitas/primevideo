@@ -1,5 +1,6 @@
 .content-wrapper {
   padding: 64px 50px;
+  height: 100%;
 }
 
 .custom-button {
@@ -23,4 +24,10 @@
 .custom-button.active-button {
   background-color: #f2f4f6;
   color: #0f171e;
+}
+
+.thumbnail-list {
+  display: flex;
+  position: absolute;
+  bottom: 4rem;
 }

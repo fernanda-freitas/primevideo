@@ -3,6 +3,7 @@ import './Carousel.css';
 import TextInfo from './TextInfo';
 import ImageBackground from './ImageBackground';
 import ImageMain from './ImageMain';
+import Thumbnail from './Thumbnail';
 
 const Carousel = () => {
   let [clicked, setclicked] = useState(1);
@@ -22,6 +23,30 @@ const Carousel = () => {
           <li><button onClick={() => handleClick(5)} className={clicked === 5 ? 'btn custom-button active-button' : 'btn custom-button'} type="button">Anões</button></li>
         </ul>
         <TextInfo clicked={clicked} />
+        <div className={clicked === 1 ? 'thumbnail-list' : 'd-none'}>
+          <Thumbnail image={require('../assets/thumbnail-01-01.jpg')} alt="Galadriel" />
+          <Thumbnail image={require('../assets/thumbnail-01-02.jpg')} alt="Elrond" />
+          <Thumbnail image={require('../assets/thumbnail-01-03.jpg')} alt="Elrond" />
+        </div>
+        <div className={clicked === 2 ? 'thumbnail-list' : 'd-none'}>
+          <Thumbnail image={require('../assets/thumbnail-02-01.jpg')} alt="Míriel" />
+          <Thumbnail image={require('../assets/thumbnail-02-02.jpg')} alt="Elendil" />
+          <Thumbnail image={require('../assets/thumbnail-02-03.jpg')} alt="Pharazôn" />
+        </div>
+        <div className={clicked === 3 ? 'thumbnail-list' : 'd-none'}>
+          <Thumbnail image={require('../assets/thumbnail-03-01.jpg')} alt="Bronwyn" />
+          <Thumbnail image={require('../assets/thumbnail-03-02.jpg')} alt="Halbrand" />
+          <Thumbnail image={require('../assets/thumbnail-03-03.jpg')} alt="theo" />
+        </div>
+        <div className={clicked === 4 ? 'thumbnail-list' : 'd-none'}>
+          <Thumbnail image={require('../assets/thumbnail-04-01.jpg')} alt="Nori" />
+          <Thumbnail image={require('../assets/thumbnail-04-02.jpg')} alt="Poppy" />
+          <Thumbnail image={require('../assets/thumbnail-04-03.jpg')} alt="Brandepé" />
+        </div>
+        <div className={clicked === 5 ? 'thumbnail-list' : 'd-none'}>
+          <Thumbnail image={require('../assets/thumbnail-05-01.jpg')} alt="Durin" />
+          <Thumbnail image={require('../assets/thumbnail-05-02.jpg')} alt="Disa" />
+        </div>
       </div>
       <ImageBackground clicked={clicked} />
     </div>
