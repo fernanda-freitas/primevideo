@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Carousel.css';
 import TextInfo from './TextInfo';
+import ImageBackground from './ImageBackground';
 import ImageMain from './ImageMain';
 
 const Carousel = () => {
@@ -22,15 +23,10 @@ const Carousel = () => {
         </ul>
         <TextInfo clicked={clicked} />
       </div>
-      <ImageMain clicked={clicked} />
+      <ImageBackground clicked={clicked} />
     </div>
-    <div className='col-md-5 character-col'>
-      {/* Character images */}
-      <img className={clicked === 1 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-01.webp")} alt="Galadriel" />
-      <img className={clicked === 2 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-02.webp")} alt="Míriel" />
-      <img className={clicked === 3 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-03.webp")} alt="Bronwyn" />
-      <img className={clicked === 4 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-04.webp")} alt="Nori" />
-      <img className={clicked === 5 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-05.webp")} alt="Durin" />
+    <div className='col-md-5 position-relative'>
+      <ImageMain key={clicked} clicked={clicked} />
     </div>
   </div>
 }
