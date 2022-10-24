@@ -2,7 +2,8 @@ import './ImageMain.css';
 
 const ImageMain = ( {clicked} ) => {
   return (
-      <img className={clicked ? 'background-image d-block' : 'd-none'} src={require(`../assets/background-0${clicked}.jpeg`)} alt="" />
+    <img key={clicked} className={clicked ? 'charmain-image d-block' : 'd-none'} src={require(`../assets/character-0${clicked}.webp`)} alt="character" />
   )
 }
+
 export default ImageMain;
