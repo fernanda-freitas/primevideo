@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/primevideo/static/css/main.78fa746d.css",
+    "main.css": "/primevideo/static/css/main.6b88fc4d.css",
     "main.js": "/primevideo/static/js/main.83a8db24.js",
     "static/media/background-01.jpeg": "/primevideo/static/media/background-01.d9ca7ad4379e7aad5243.jpeg",
     "static/media/background-02.jpeg": "/primevideo/static/media/background-02.92c713520f577f5e0fce.jpeg",
@@ -30,11 +30,11 @@
     "static/media/thumbnail-03-01.jpg": "/primevideo/static/media/thumbnail-03-01.5a4da8e0c4caef11cfe2.jpg",
     "static/media/thumbnail-01-03.jpg": "/primevideo/static/media/thumbnail-01-03.a111ba9fdd2110064a09.jpg",
     "index.html": "/primevideo/index.html",
-    "main.78fa746d.css.map": "/primevideo/static/css/main.78fa746d.css.map",
+    "main.6b88fc4d.css.map": "/primevideo/static/css/main.6b88fc4d.css.map",
     "main.83a8db24.js.map": "/primevideo/static/js/main.83a8db24.js.map"
   },
   "entrypoints": [
-    "static/css/main.78fa746d.css",
+    "static/css/main.6b88fc4d.css",
     "static/js/main.83a8db24.js"
   ]
 }
