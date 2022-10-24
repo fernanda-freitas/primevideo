@@ -1,0 +1,20 @@
+.header {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.content-text {
+  display: none;
+  padding: 1rem 8rem 3rem 0rem;
+}
+
+.content-text.active {
+  display: block;
+}
+
+.textbody {
+  color: white;
+  padding-top: 1.5rem;
+}
