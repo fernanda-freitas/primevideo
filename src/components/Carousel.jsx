@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Carousel.css';
 import TextInfo from './TextInfo';
+import ImageMain from './ImageMain';
 
 const Carousel = () => {
   let [clicked, setclicked] = useState(1);
@@ -21,12 +22,7 @@ const Carousel = () => {
         </ul>
         <TextInfo clicked={clicked} />
       </div>
-      {/* Background images */}
-      <img className={clicked === 1 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-01.jpeg")} alt="representative of character" />
-      <img className={clicked === 2 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-02.jpeg")} alt="representative of character" />
-      <img className={clicked === 3 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-03.jpeg")} alt="representative of character" />
-      <img className={clicked === 4 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-04.jpeg")} alt="representative of character" />
-      <img className={clicked === 5 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-05.jpeg")} alt="representative of character" />
+      <ImageMain clicked={clicked} />
     </div>
     <div className='col-md-5 character-col'>
       {/* Character images */}

@@ -1,7 +1,9 @@
+import './TextInfo.css';
+
 const TextInfo = ( {clicked} ) => {
   return (
     <>
-      <div clicked={clicked} className={clicked === 1 ? 'content-text active' : 'content-text'}>
+      <div className={clicked === 1 ? 'content-text active' : 'content-text'}>
         <h1 className='header'>Galadriel</h1>
         <p className='textbody'>Uma lendária guerreira élfica e Comandante das Forças do Norte. Ainda longe de ser a sábia e etérea Senhora de Lórien, esta Galadriel bem mais jovem é teimosa e persistente - e obcecada em caçar um mal furtivo.</p>
       </div>

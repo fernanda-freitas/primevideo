@@ -1,0 +1,16 @@
+.background-image {
+  width: 100vw;
+  object-fit: cover;
+}
+
+.charmain-image {
+  position: relative;
+  object-fit: cover;
+  animation-name: fadeToLeft;
+  animation-duration: .4s;
+}
+
+@keyframes fadeToLeft {
+  0%   {right: -30px; opacity: 0;}
+  100%   {right: 0px; opacity: 1;}
+}
