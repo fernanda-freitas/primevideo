@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/primevideo/static/css/main.6eb6d521.css",
-    "main.js": "/primevideo/static/js/main.bcbd36da.js",
+    "main.css": "/primevideo/static/css/main.5407c53d.css",
+    "main.js": "/primevideo/static/js/main.703c77a9.js",
     "static/media/background-01.jpeg": "/primevideo/static/media/background-01.d9ca7ad4379e7aad5243.jpeg",
     "static/media/background-02.jpeg": "/primevideo/static/media/background-02.92c713520f577f5e0fce.jpeg",
     "static/media/background-04.jpeg": "/primevideo/static/media/background-04.599c9baea6cea8e0117e.jpeg",
@@ -13,11 +13,11 @@
     "static/media/character-03.webp": "/primevideo/static/media/character-03.f9b8878ead568bb4e8e6.webp",
     "static/media/character-04.webp": "/primevideo/static/media/character-04.4ce646b66b2985d59bdf.webp",
     "index.html": "/primevideo/index.html",
-    "main.6eb6d521.css.map": "/primevideo/static/css/main.6eb6d521.css.map",
-    "main.bcbd36da.js.map": "/primevideo/static/js/main.bcbd36da.js.map"
+    "main.5407c53d.css.map": "/primevideo/static/css/main.5407c53d.css.map",
+    "main.703c77a9.js.map": "/primevideo/static/js/main.703c77a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eb6d521.css",
-    "static/js/main.bcbd36da.js"
+    "static/css/main.5407c53d.css",
+    "static/js/main.703c77a9.js"
   ]
 }
