@@ -39,6 +39,7 @@ const Carousel = () => {
           <p className='textbody'>O Príncipe Durin IV é tão durão e taciturno em público quanto se esperaria de um Anão de sua importância, mas longe dos olhares alheios, ele é afetuoso, atencioso e barulhento. Como herdeiro do trono de Khazad-dûm, ele almeja o dia em que poderá deixar sua marca no mundo.</p>
         </div>
       </div>
+      {/* Background images */}
       <img className={clicked === 1 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-01.jpeg")} alt="representative of character" />
       <img className={clicked === 2 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-02.jpeg")} alt="representative of character" />
       <img className={clicked === 3 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-03.jpeg")} alt="representative of character" />
@@ -46,6 +47,7 @@ const Carousel = () => {
       <img className={clicked === 5 ? 'background-image d-block' : 'd-none'} src={require("../assets/background-05.jpeg")} alt="representative of character" />
     </div>
     <div className='col-md-5 character-col'>
+      {/* Character images */}
       <img className={clicked === 1 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-01.webp")} alt="Galadriel" />
       <img className={clicked === 2 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-02.webp")} alt="Míriel" />
       <img className={clicked === 3 ? 'charmain-image d-block' : 'd-none'} src={require("../assets/character-03.webp")} alt="Bronwyn" />
